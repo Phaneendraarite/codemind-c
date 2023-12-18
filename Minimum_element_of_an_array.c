@@ -3,17 +3,18 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int i,a[n];
+    int a[n],i;
     for(i=0;i<n;i++)
     {
-        scanf("%d",&a[i]);
+     scanf("%d",&a[i]);   
     }
     int min=a[0];
     for(i=0;i<n;i++)
     {
         if(min>a[i])
         {
-        min=a[i];
+            min=a[i];
+        }
     }
-}printf("%d",min);
+    printf("%d",min);
 }
